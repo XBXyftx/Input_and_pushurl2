@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Input_and_pushurl2_com.example.input_and_pushurl_10086000139593308.cer",
+          "storePassword": "0000001B2E37E8831B546257535B92858E80F05C4855FDF39FA211A732D6A011171C9D7350AA0CF69EC820",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BBCF9F631C354E56D27371CB0FD3FFBCDE199FCC75DDD3E55D756DA6599B523584371ACEE1D8A25",
+          "profile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Input_and_pushurl2_com.example.input_and_pushurl_10086000139593308.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Input_and_pushurl2_com.example.input_and_pushurl_10086000139593308.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
