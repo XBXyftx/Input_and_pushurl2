@@ -27,7 +27,7 @@ struct SecondPage {
           .backgroundColor(Color.Blue)
           .onClick(()=>{
             //确认窗口
-            router.showAlertBeforeBackPage({message:'你确定要返回吗？？？'})
+            router.showAlertBeforeBackPage({message:'你确定要返回吗'})
             //页面跳转
             router.back({
               url:"pages/FirstPage",
