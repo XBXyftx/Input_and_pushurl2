@@ -22,7 +22,7 @@ struct SecondPage {
 
         Button('返回')
           .fontSize(18)
-          .width(300)
+          .width(30)
           .height(400)
           .backgroundColor(Color.Blue)
           .onClick(()=>{
