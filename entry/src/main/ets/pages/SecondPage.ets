@@ -22,8 +22,8 @@ struct SecondPage {
 
         Button('返回')
           .fontSize(18)
-          .width(30)
-          .height(400)
+          .width(300)
+          .height(40)
           .backgroundColor(Color.Blue)
           .onClick(()=>{
             //确认窗口
