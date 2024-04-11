@@ -23,6 +23,7 @@ struct FirstPage {
         Text(this.backMSG)
           .fontSize(20)
           .opacity(0.8)
+        Blank()
 
         TextInput({placeholder:'请输入'})
           .width(200)
