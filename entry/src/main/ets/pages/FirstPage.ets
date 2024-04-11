@@ -50,7 +50,7 @@ struct FirstPage {
           })
       }
       .width('100%')
-      .height(140)
+      .height(160)
     }
     .height('100%')
     .backgroundImage($rawfile('Amiya2.jpg'))
