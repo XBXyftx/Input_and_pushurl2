@@ -4,7 +4,7 @@ import router from '@ohos.router';
 struct FirstPage {
   @State message: string = '第一个页面';
   @State backMSG: string = ''
-  @State num:number = null;
+  @State num:number = 0;
 
   onPageShow(){
     let record = router.getParams() as Record<string,string>
